@@ -1,0 +1,93 @@
+
+/*
+Body : background #f3f4f6
+
+Tarjeta del producto (background) : #FFFFFF
+Texto NUEVO INGRESO (background) : #fee2e2 
+Texto NUEVO INGRESO (color) : #991b1b;
+Botón de compra (backagroud) : #2563eb
+Botón de compra (efecto Hover):  lightgray
+
+ ‘Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.A-S{
+ color: #2563eb;
+}
+
+.product-card{
+     width: 100%; 
+}
+
+.text-parrafo{
+    color: lightgray;
+}
+
+.container{
+    width: 100%;
+}
+
+.body{
+    width: 100%;
+  background-color:  #f3f4f6;
+}
+
+.product-card{
+   border-radius: 20px; 
+   background-color:#FFFFFF ;
+   align-items: center;
+    width: 100%;
+}
+
+.precio-tachado{
+    color: lightgray;
+}
+
+.precio-btn{
+    display: flex;
+    gap: 15rem;
+    
+}
+
+.btn-ctn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.button {
+    display: flex;
+    gap: 0.5rem;
+    background-color:#2563eb;
+    color:white;
+    border-right: 10px;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+.img-audifonos{
+    border-radius: 20px;
+}
+
+@media (max-width: 768px){
+
+
+
+}
